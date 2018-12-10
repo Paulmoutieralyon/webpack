@@ -1,5 +1,9 @@
-import moment from "moment"
+import $ from "jquery";
 
-console.log(moment().startOf('day').fromNow());
+import '../scss/style.scss';
+import 'bootstrap';
 
-console.log("Bienvenue dans WebPack!");
+
+$(document).ready(function () {
+    console.log("ok, JQuery fonctionne !");
+});
